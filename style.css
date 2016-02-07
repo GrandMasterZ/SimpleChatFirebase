@@ -1,0 +1,40 @@
+.message
+{
+	border-style: solid;
+    border-width: 2px;
+    padding:5px;
+    margin:5px;
+    border-radius: 15px;
+    word-wrap: break-word;
+    background-color:#FBF6D9;
+}
+
+.message:hover
+{
+	background-color: #e1ddc3;
+}
+#messagesDiv
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 300px;
+	width:100%;
+}
+
+.chatBox
+{
+	border-style: dotted;
+    border-width: 2px;
+    overflow:auto;
+    float:left;
+    width:300px;
+}
+
+#nameInput
+{
+	width:30%;
+}
+#messageOutput
+{
+	width:100%;
+}
